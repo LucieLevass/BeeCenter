@@ -1,0 +1,7 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("https://img.apmcdn.org/2985c13d3590bd746d191fd5e10e6e272f82122e/uncropped/ac436d-splendid-table-bees-working-hive-alexandrumagurean-e-157508920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}

@@ -96,6 +96,7 @@ app.get("/createDatabase", (req, res) => {
 
     // use the query to create a Database.
     database.query(createQuery, (err) => {
+        console.log(err);
         if (err) throw err;
 
         console.log("Database Created Successfully !");
@@ -141,4 +142,14 @@ app.get("/createDatabase", (req, res) => {
         
         });
     });
+});
+
+//route vers le fichier /front/login.html
+app.get("/login", (req, res) => {
+    res.sendFile(__dirname + "/front/login.html");
+});
+
+//route vers le fichier /front/inscription.html
+app.get("/sign", (req, res) => {
+    res.sendFile(__dirname + "sign.html");
 });
