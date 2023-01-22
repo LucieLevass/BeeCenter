@@ -1,0 +1,23 @@
+version: '3'
+services:
+  db:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: beecenter
+    ports:
+      - "3307:3306"
+  app:
+    build: ./app
+    ports:
+      - "3000:3000"
+    links:
+      - db
+    environment:
+      DATABASE_HOST: '127.0.0.1'
+      DATABASE_USER: root
+      DATABASE_PASSWORD: root
+      DATABASE_NAME: beecenter
+    volumes:
+      - ./app:/usr/src/app
+      - /var/run/mysqld/mysqld.sock:/mysql/mysql.sock
