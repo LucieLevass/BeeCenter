@@ -1,0 +1,124 @@
+btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 5vh;
+    left: 28px;
+}
+
+.separator {
+    height:2px;
+    width:80%;
+    background-color: #c7c7c7;
+    margin: 15px auto 0 auto;
+}
+
+.profilHeader {
+  background: linear-gradient(279.2deg, #4776e6 2.22%, #8e54e9 69.85%);
+  border-radius: 0px 0px 25px 25px;
+  height: 22vh;
+  margin-bottom: 40px;
+}
+
+.profil {
+  margin: 0 auto;
+  padding-top: 20px;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.profilTitle {
+  font-size: 36px;
+  font-family: Poppins;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom:20px
+}
+
+.profilImage {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  border-radius: 62.5px;
+  position: relative;
+  border: 3px solid;
+  border-color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.profilIcon {
+  width: 40px;
+  height: 40px;
+}
+
+.profilItems {
+  display: flex;
+  margin-top: 25%;
+}
+.profilText {
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+
+.profileInfo {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.profileInfoData {
+    display: flex;
+    align-items: center;
+}
+
+.profileInfoData img {
+    padding: 0 40px 0 20px;
+}
+
+.profileInfoList {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.profileNav {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: fit-content;
+    position: absolute;
+    bottom: 30px;
+}
+
+.profileNav img {
+    max-height: 24px;
+    color:white
+}
+
+.profileNavEdit {
+    width: 150px;
+    height: 50px;
+    background: linear-gradient(96.46deg, #C84E89 10.99%, #F15F79 83.72%);
+    border-radius:50px;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.profileNavSettings {
+    width: 50px;
+    height: 50px;
+    background-color: #EEAA00;
+    border-radius:50px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
