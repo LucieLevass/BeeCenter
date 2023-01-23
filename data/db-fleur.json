@@ -1,0 +1,46 @@
+{
+    "insert_plantes": [
+        {
+            "id_plante": "0001",
+            "nom": "érable champêtre",
+            "nom_latin": "Acer campestris",
+            "hauteur": "15m",
+            "nectar": 3,
+            "pollen": 2,
+            "miellat": "M",
+            "floraison": "avril,mai",
+            "couleur": "vert clair",
+            "emplacement_jardin": "collection historique",
+            "longitude": 6.159,
+            "latitude": 48.661
+        },
+        {
+            "id_plante": "0002",
+            "nom": "érable sycomore",
+            "nom_latin": "Acer pseudoplatanus",
+            "hauteur": "25m",
+            "nectar": 2,
+            "pollen": 2,
+            "miellat": "",
+            "floraison": "mai",
+            "couleur": "jaunâtre",
+            "emplacement_jardin": "forêt",
+            "longitude": 6.157,
+            "latitude": 48.6612
+        },
+        {
+            "id_plante": "0003",
+            "nom": "aulne glutineux",
+            "nom_latin": "Alnus glutinosa",
+            "hauteur": "25m",
+            "nectar": 1,
+            "pollen": 2,
+            "miellat": "M",
+            "floraison": "mars,avril",
+            "couleur": "jaune",
+            "emplacement_jardin": "étang",
+            "longitude": 6.153,
+            "latitude": 48.66
+        }
+    ]
+}
