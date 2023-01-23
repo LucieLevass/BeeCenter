@@ -1,0 +1,87 @@
+btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 5vh;
+    left: 28px;
+}
+
+.titleSuccess {
+    font-size: 36px;
+    font-family: Poppins;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+
+.separator {
+    height:2px;
+    width:80%;
+    background-color: #c7c7c7;
+    margin: 15px auto 0 auto;
+}
+
+.successHeader {
+    background: linear-gradient(279.2deg, #4776e6 2.22%, #8e54e9 69.85%);
+    border-radius: 0px 0px 25px 25px;
+    height: 23vh;
+  }
+  
+.boxSuccess {
+  margin: 0 auto;
+  padding-top: 50px;
+  width: fit-content;
+}
+
+.counterTrophy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    list-style-type: none;
+}
+
+.counter {
+    font-size: 48px;
+    font-weight: 600;
+    color: white;
+}
+
+.trophy {
+    margin-left: 10px;
+}
+
+.SuccessInfos h2 {
+    font-size: 24;
+    font-weight: 900;
+    margin-bottom: 10px;
+  }
+  
+  .successBox {
+    width: 80%;
+    margin: 10% auto 0 auto;
+  }
+  
+  .successInfos h2 {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    width: 180px ;
+    
+  }
+  
+  .successInfos p {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    display: inline-block;
+    width: 180px ;
+  }
+  
+  .success {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }

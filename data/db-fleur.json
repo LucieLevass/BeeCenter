@@ -11,8 +11,9 @@
             "floraison": "avril,mai",
             "couleur": "vert clair",
             "emplacement_jardin": "collection historique",
-            "longitude": 6.159,
-            "latitude": 48.661
+            "longitude": 6.154,
+            "latitude": 48.66,
+            "img": "../img/flowers/acer_campestre.jpg"
         },
         {
             "id_plante": "0002",
@@ -26,7 +27,8 @@
             "couleur": "jaunâtre",
             "emplacement_jardin": "forêt",
             "longitude": 6.157,
-            "latitude": 48.6612
+            "latitude": 48.6612,
+            "img": "../img/flowers/acer_pseudoplatanus.jpg"
         },
         {
             "id_plante": "0003",
@@ -40,7 +42,8 @@
             "couleur": "jaune",
             "emplacement_jardin": "étang",
             "longitude": 6.153,
-            "latitude": 48.66
+            "latitude": 48.66,
+            "img": "../img/flowers/alnus_glutinosa.jpg"
         }
     ]
 }
